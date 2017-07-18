@@ -118,6 +118,7 @@ export default class Main extends Component {
                 <TextInput
                     style={styles.input}
                     placeholder='Give me your best try...'
+                    underlineColorAndroid='rgba(0,0,0,0)'
                     onChangeText={(text) => {
                         this.setState({task: text});
                     }}
